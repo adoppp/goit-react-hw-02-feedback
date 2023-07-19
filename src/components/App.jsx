@@ -12,6 +12,10 @@ export class App extends Component {
     bad: 0,
   };
 
+   componentDidMount() {
+    document.title = 'Feedback';
+  }
+
   onLeaveFeedback = state => {
     this.setState(prevValue => ({
       [state]: prevValue[state] + 1,
