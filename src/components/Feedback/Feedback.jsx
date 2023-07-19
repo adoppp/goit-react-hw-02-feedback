@@ -6,7 +6,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback, index }) => {
     return (
         <div>
             {options.map(option => {
-                return <button type='button' onClick={() => onLeaveFeedback(option)} key={nanoid()}>{option}</button>
+                return <button type='button' onClick={() => onLeaveFeedback(option)} key={nanoid()} className={css.buttonFB}>{option}</button>
             })}
         </div>
     );
