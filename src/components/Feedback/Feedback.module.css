@@ -1,0 +1,62 @@
+.buttonFB {
+    margin-right: 20px;
+    background-color: dimgray;
+    border-radius: 10px;
+    color: rgb(0, 17, 17);
+    padding: 8px 32px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.buttonFB:nth-child(1) {
+    border: 2px solid green;
+}
+
+.buttonFB:nth-child(1):hover {
+    border: 2px solid rgb(0, 17, 17);
+    background-color: green;
+}
+
+.buttonFB:nth-child(1):active {
+    border: 2px solid rgb(0, 17, 17);
+    background-color: rgb(0, 80, 0);
+    color: rgb(169, 169, 169);
+}
+
+.buttonFB:nth-child(2) {
+    border: 2px solid yellow;
+}
+
+.buttonFB:nth-child(2):hover {
+    border: 2px solid rgb(0, 17, 17);
+    background-color: yellow;
+}
+
+.buttonFB:nth-child(2):active {
+    border: 2px solid rgb(0, 17, 17);
+    background-color: rgb(89, 89, 0);
+    color: rgb(169, 169, 169);
+}
+
+.buttonFB:nth-child(3) {
+    border: 2px solid darkred;
+}
+
+.buttonFB:nth-child(3):hover {
+    border: 2px solid rgb(0, 17, 17);
+    background-color: darkred;
+}
+
+.buttonFB:nth-child(3):active {
+    border: 2px solid rgb(0, 17, 17);
+    background-color: rgb(79, 0, 0);
+    color: rgb(169, 169, 169);
+}
+
+.buttonFB:last-child {
+    margin-right: 0;
+}
+
+body {
+    background-color: darkcyan;
+}
